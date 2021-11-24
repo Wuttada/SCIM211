@@ -28,7 +28,7 @@ class motorcycletaxistand(object):
         self.student_counter = student
         self.arrival_time = time
         
-        print('Student %s arrived motorcycle taxi stand at %0.2f' %(self.student_counter, 6+self.arrival_time)) 
+        print('Student %s arrived motorcycle taxi stand at %0.2f' %(self.student_counter, self.arrival_time)) 
         
         env.process(self.service())
 
@@ -56,3 +56,7 @@ def queue_generator(env,rider):
     
 if __name__ == '__main__':
     main()
+    
+    
+# Thank you to examples on SimPy documentation and the RealPython tutorial and to my teacher, Mr. Berdinsky
+# By 6305574 Wuttada Rungseesantivanon
