@@ -1,9 +1,12 @@
+# Special thanks to examples on SimPy documentation, EuroPython 2014's tutorial, the RealPython's tutorial and to my teacher, Mr. Berdinsky
+# By 6305574 Wuttada Rungseesantivanon
+
 import random 
 import simpy 
 
 rushhours = 120 # From 6AM to 8AM
 interarrival_time = 0.5 # Suppose that students arrive at every 30 seconds
-service_time = 3*2 #1.7 KM from the motorcycle taxi stand to the school 
+service_time = 3*2 #1.7 KM from the motorcycle taxi stand to the school and another 1.7 KM back to the station
 
 def input_for_rider():
     num_rider = int(input("Set the number of rider(s) avaliable: "))
@@ -56,7 +59,3 @@ def queue_generator(env,rider):
     
 if __name__ == '__main__':
     main()
-    
-    
-# Special thanks to examples on SimPy documentation, EuroPython 2014's tutorial, the RealPython's tutorial and to my teacher, Mr. Berdinsky
-# By 6305574 Wuttada Rungseesantivanon
