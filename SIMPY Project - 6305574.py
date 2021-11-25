@@ -58,5 +58,5 @@ if __name__ == '__main__':
     main()
     
     
-# Thank you to examples on SimPy documentation and the RealPython tutorial and to my teacher, Mr. Berdinsky
+# Special thanks to examples on SimPy documentation, EuroPython 2014's tutorial, the RealPython's tutorial and to my teacher, Mr. Berdinsky
 # By 6305574 Wuttada Rungseesantivanon
